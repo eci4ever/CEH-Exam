@@ -8,13 +8,14 @@
 - [🛠️ Tool yang Perlu Dikuasai](#️-tool-yang-perlu-dikuasai)  
 - [💡 Tips & Trick untuk Exam CEH Amali](#-tips--trick-untuk-exam-ceh-amali)  
 - [🖥️ Latihan Hands-on & Platform Belajar](#️-latihan-hands-on--platform-belajar)  
+- [🔗 Sumber Tambahan](#-sumber-tambahan)  
 
 ---
 
 ## 📚 Rujukan Utama  
 Berikut adalah sumber utama untuk pembelajaran dan latihan CEH:  
 
-### 📖 **Buku/Web Rujukan**  
+### 📖 **Buku Rujukan**  
 - **[Cracking Passwords Using John the Ripper](https://null-byte.wonderhowto.com/forum/cracking-passwords-using-john-ripper-0181420/)**
 - **[Stapler 1 Walkthrough](https://5h4d0wb0y.github.io/2017-06-25-stapler/)**
 - **[Pentest Everything](https://viperone.gitbook.io/pentest-everything/everything/pivoting-and-portforwarding)**  
@@ -30,38 +31,30 @@ Berikut adalah sumber utama untuk pembelajaran dan latihan CEH:
 ### 📝 **Soalan Latihan & Simulasi Peperiksaan**  
 - **[Boson CEH Practice Exams](https://www.boson.com/practice-exam/ceh)**  
 - **[ExamTopics CEH Questions](https://www.examtopics.com/exams/ec-council/ceh/)**  
-- **[Skillset CEH Practice Tests](https://www.skillset.com/certifications/certified-ethical-hacker)**  
+- **[YeahHub CEH MCQ](https://www.yeahhub.com/cehv11-mcq/)**  
 
 ---
 
 ## 🛠️ Tool yang Perlu Dikuasai  
-Peperiksaan CEH memerlukan kemahiran dalam pelbagai tool pentesting. Berikut adalah senarai utama:  
 
 ### **📌 Footprinting & Reconnaissance**  
 - **Nmap** – Network scanning & reconnaissance  
 - **theHarvester** – OSINT untuk e-mel, domain & subdomain  
 - **Maltego** – OSINT & analisis hubungan  
 
-### **📌 Scanning & Enumeration**  
-- **Nmap & Netcat** – Network scanning & service enumeration  
-- **Gobuster / Dirb** – Web directory bruteforcing  
-- **SNMP Enumeration (snmpwalk, onesixtyone)** – SNMP enumeration  
-
 ### **📌 Exploitation & Privilege Escalation**  
 - **Metasploit** – Framework untuk eksploitasi sistem  
 - **Mimikatz** – Dump password & credential dalam Windows  
 - **PowerSploit / Windows Exploit Suggester** – Privilege escalation dalam Windows  
-- **LinPEAS / Linux Exploit Suggester** – Privilege escalation dalam Linux  
 
 ### **📌 Password Cracking & Credential Attacks**  
 - **John the Ripper & Hashcat** – Password cracking  
-- **Hydra** – Bruteforce login untuk SSH, FTP, RDP, dan lain-lain  
-- **Responder** – Menangkap NTLMv2 hash untuk serangan pass-the-hash  
+- **Hydra** – Bruteforce login untuk SSH, FTP, RDP  
+- **Responder** – Menangkap NTLMv2 hash  
 
-### **📌 Wireless & Web Application Security**  
-- **Aircrack-ng & Wireshark** – Wireless network pentesting  
-- **Burp Suite** – Web application security testing  
-- **SQLmap** – SQL Injection automation  
+### **📌 Steganography & Cryptography**  
+- **[StegOnline](https://stegonline.georgeom.net/upload)** – Alat untuk menyembunyikan mesej dalam gambar  
+- **[CyberChef](https://gchq.github.io/CyberChef/)** – Alat serbaguna untuk dekripsi dan analisis data  
 
 ---
 
@@ -84,21 +77,23 @@ Peperiksaan CEH memerlukan kemahiran dalam pelbagai tool pentesting. Berikut ada
 - **Mimikatz** (`sekurlsa::logonpasswords`)  
 - **Privilege Escalation Scripts** (`linpeas.sh, winPEAS.exe`)  
 
-✅ **5. Fahami Web & Wireless Attacks**  
-- **Burp Suite** → Ujian serangan XSS, SQLi, CSRF.  
-- **Aircrack-ng** → Crack Wi-Fi WPA2 dengan `airmon-ng, airodump-ng, aircrack-ng`.  
-
-✅ **6. Guna Notes dan Cheat Sheets**  
-- **[Pentestmonkey Reverse Shell Cheat Sheet](http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet)**  
-- **[GTFOBins](https://gtfobins.github.io/)** untuk Linux privilege escalation  
-
 ---
 
 ## 🖥️ Latihan Hands-on & Platform Belajar  
 🔹 **[TryHackMe – CEH Pathway](https://tryhackme.com/)** – Hands-on lab dengan modul CEH.  
 🔹 **[Hack The Box (HTB)](https://www.hackthebox.com/)** – Mesin real-world untuk latihan pentesting.  
 🔹 **[EC-Council iLabs](https://iclass.eccouncil.org/)** – Makmal rasmi untuk latihan CEH.  
-🔹 **[RangeForce Cyber Range](https://www.rangeforce.com/)** – Latihan simulasi keselamatan siber.  
+
+---
+
+## 🔗 Sumber Tambahan  
+- **[Guide-CEH-Practical-Master (GitHub)](https://github.com/CyberSecurityUP/Guide-CEH-Practical-Master)**  
+- **[CEH Practical Exam Writeup](https://medium.com/@kljaswanth/ceh-practical-exam-writeup-a70c61e067d5)**  
+- **[CEH Practical Notes](https://pdfcoffee.com/ceh-practical-notes-pdf-free.html)**  
+- **[CEH Practical Exam Review 2023](https://tun4hunt.medium.com/ceh-practical-exam-review-2023-7f80dae09516)**  
+- **[Book Shelf Machine (Vulnhub)](https://www.vulnhub.com/entry/book-shelf-1,666/)**  
+- **[Prathap Ilango – How I Achieved CEH v12](https://prathapilango.medium.com/how-i-achieved-ceh-v12-certification-in-one-month-ceh-2023-ce682820f9c9)**  
+- **[Sam's Class Cybersecurity Labs](https://samsclass.info/124/124_F17.shtml#lecture)**  
 
 ---
 
