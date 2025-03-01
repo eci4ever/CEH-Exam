@@ -52,3 +52,80 @@ Ethical hacking memainkan peranan penting dalam dunia keselamatan siber. Dengan 
 
 Ringkasan ini memberikan gambaran keseluruhan tentang konsep asas ethical hacking. Untuk pemahaman yang lebih mendalam, pelajari modul sepenuhnya dan lakukan latihan praktikal yang disediakan!
 
+Dalam **cybersecurity**, konsep **Red Team** dan **Blue Team** digunakan untuk menilai tahap keselamatan sesuatu organisasi melalui ujian serangan dan pertahanan. Ini adalah pendekatan yang sering digunakan dalam **penetration testing**, **incident response**, dan **cybersecurity assessments**.
+
+---
+
+### **🛡️ Blue Team (Pasukan Pertahanan)**
+✅ **Peranan:**  
+- Bertanggungjawab melindungi sistem, rangkaian, dan data organisasi daripada serangan siber.  
+- Menggunakan pelbagai alat keselamatan untuk memantau, mengesan, dan bertindak balas terhadap ancaman.  
+- Memastikan dasar keselamatan dipatuhi, menjalankan **patch management**, dan menguatkuasakan **access control**.
+
+✅ **Tugas Utama:**  
+- **Monitoring & Detection:** Menggunakan SIEM (Security Information and Event Management) untuk memantau aktiviti yang mencurigakan.  
+- **Incident Response:** Bertindak balas terhadap insiden keselamatan dan mengurangkan kesan serangan.  
+- **Threat Hunting:** Mencari ancaman yang mungkin belum dikenal pasti oleh sistem automatik.  
+- **Security Hardening:** Mengukuhkan sistem dengan firewall, antivirus, IDS/IPS (Intrusion Detection/Prevention Systems).  
+- **Training & Awareness:** Melatih pekerja tentang keselamatan siber untuk mengurangkan risiko **social engineering**.  
+
+✅ **Alatan yang Digunakan oleh Blue Team:**  
+- **SIEM (Splunk, ELK, QRadar, ArcSight)** → Untuk pemantauan log dan analisis ancaman.  
+- **IDS/IPS (Snort, Suricata, Zeek)** → Untuk mengesan dan mencegah serangan rangkaian.  
+- **EDR (CrowdStrike, SentinelOne, Microsoft Defender ATP)** → Untuk memantau endpoint devices.  
+- **Firewall & WAF (Palo Alto, Fortinet, Cloudflare)** → Untuk menapis trafik berbahaya.  
+
+---
+
+### **🚨 Red Team (Pasukan Serangan)**
+✅ **Peranan:**  
+- Bertindak sebagai **penyerang** yang mensimulasikan serangan siber sebenar terhadap sistem organisasi.  
+- Mencari kelemahan dalam sistem, aplikasi, dan infrastruktur.  
+- Ujian ini dilakukan secara **ethical hacking**, bertujuan untuk meningkatkan keselamatan, bukan untuk memusnahkan.  
+
+✅ **Tugas Utama:**  
+- **Penetration Testing:** Menjalankan ujian serangan terhadap sistem, rangkaian, dan aplikasi.  
+- **Social Engineering Attacks:** Menguji pekerja dengan simulasi serangan **phishing, baiting, pretexting**.  
+- **Physical Security Testing:** Ujian keselamatan fizikal seperti cuba memasuki premis tanpa kebenaran.  
+- **Exploitation & Post-Exploitation:** Menggunakan kelemahan untuk mendapatkan akses dan meningkatkan keistimewaan (privilege escalation).  
+
+✅ **Alatan yang Digunakan oleh Red Team:**  
+- **Reconnaissance (OSINT Framework, Maltego, theHarvester)** → Mengumpul maklumat awal.  
+- **Exploitation (Metasploit, Cobalt Strike, Empire, Mimikatz)** → Mengeksploitasi kelemahan dalam sistem.  
+- **Password Cracking (John the Ripper, Hashcat, Hydra)** → Meneka atau menyahsulit kata laluan.  
+- **Wireless Attacks (Aircrack-ng, Wireshark, Kismet)** → Menganalisis dan menyerang rangkaian tanpa wayar.  
+- **Social Engineering (Gophish, SET - Social Engineering Toolkit)** → Untuk ujian serangan phishing.  
+
+---
+
+### **🟣 Purple Team (Gabungan Red & Blue Team)**
+✅ **Peranan:**  
+- Bukan satu pasukan tetap, tetapi konsep **kerjasama** antara Red Team & Blue Team.  
+- Red Team cuba menembusi sistem, Blue Team cuba mempertahankan, dan kedua-duanya belajar dari hasil ujian ini.  
+- Tujuan utama adalah **continuous improvement** terhadap keselamatan organisasi.  
+
+✅ **Bagaimana Purple Team Berfungsi?**  
+1. **Red Team menyerang** → Cari kelemahan dan exploit sistem.  
+2. **Blue Team bertahan** → Memantau dan bertindak balas terhadap serangan.  
+3. **Evaluasi bersama** → Mengenal pasti kelemahan dan mencari penyelesaian yang lebih baik.  
+4. **Menambah baik strategi keselamatan** → Blue Team meningkatkan pertahanan berdasarkan taktik Red Team.  
+
+---
+
+### **Perbandingan Red Team vs Blue Team**
+| **Kategori**     | **Red Team (Penyerang)** | **Blue Team (Pertahanan)** |
+|----------------|----------------|----------------|
+| **Fokus** | Menyerang dan mencari kelemahan | Melindungi sistem dan mengesan serangan |
+| **Pendekatan** | Ethical hacking & penetration testing | Defensive security & monitoring |
+| **Alatan** | Metasploit, Cobalt Strike, Hydra | SIEM, IDS/IPS, Firewalls, EDR |
+| **Matlamat** | Uji sistem dan cari kelemahan | Lindungi dan tingkatkan keselamatan |
+| **Metodologi** | Simulasi serangan dunia sebenar | Mengesan, bertindak balas, dan membetulkan kelemahan |
+
+---
+
+### **Kesimpulan**
+- **Red Team** = Cari kelemahan  
+- **Blue Team** = Pertahan organisasi  
+- **Purple Team** = Gabungan Red & Blue untuk tingkatkan keselamatan secara berterusan  
+
+Untuk seorang **ethical hacker atau penetration tester**, memahami kedua-dua peranan ini sangat penting, terutama dalam peperiksaan **CEH** dan amalan sebenar dalam dunia cybersecurity.
