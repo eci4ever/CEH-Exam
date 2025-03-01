@@ -15,6 +15,7 @@
 Berikut adalah sumber utama untuk pembelajaran dan latihan CEH:  
 
 ### 📖 **Buku Rujukan**  
+- **[Pentest Everything](https://viperone.gitbook.io/pentest-everything/everything/pivoting-and-portforwarding)**  
 - **[CEH v12 Certified Ethical Hacker Study Guide – Ric Messier](https://www.amazon.com/CEH-Certified-Ethical-Hacker-Study/dp/1119805269/)**  
 - **[Certified Ethical Hacker (CEH) All-in-One Exam Guide – Matt Walker](https://www.amazon.com/CEH-Certified-Ethical-Hacker-Guide/dp/126045455X/)**  
 
