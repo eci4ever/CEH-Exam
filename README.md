@@ -14,15 +14,18 @@
 ## 📚 Rujukan Utama  
 Berikut adalah sumber utama untuk pembelajaran dan latihan CEH:  
 
-### 📖 **Buku Rujukan**  
+### 📖 **Buku/Web Rujukan**  
+- **[Cracking Passwords Using John the Ripper](https://null-byte.wonderhowto.com/forum/cracking-passwords-using-john-ripper-0181420/)**
+- **[Stapler 1 Walkthrough](https://5h4d0wb0y.github.io/2017-06-25-stapler/)**
 - **[Pentest Everything](https://viperone.gitbook.io/pentest-everything/everything/pivoting-and-portforwarding)**  
 - **[CEH v12 Certified Ethical Hacker Study Guide – Ric Messier](https://www.amazon.com/CEH-Certified-Ethical-Hacker-Study/dp/1119805269/)**  
 - **[Certified Ethical Hacker (CEH) All-in-One Exam Guide – Matt Walker](https://www.amazon.com/CEH-Certified-Ethical-Hacker-Guide/dp/126045455X/)**  
 
 ### 🎥 **Kursus Video**  
-- **[INE – CEH Practical Course](https://ine.com/learning/certifications/ec-council/ceh-certified-ethical-hacker)**  
-- **[Udemy – Certified Ethical Hacker Bootcamp](https://www.udemy.com/course/certified-ethical-hacker-bootcamp/)**  
-- **[Pluralsight – CEH Practical Exam Preparation](https://www.pluralsight.com/courses/ceh-certified-ethical-hacker-practical-exam-preparation)**  
+- **[Youtube CEH Paraktical Playlist](https://www.youtube.com/playlist?list=PLZEA2EJpqSWfouVNPkl37AWEVCj6A2mdz)**  
+- **[Sams Class](https://samsclass.info/123/123_F23.shtml)**  
+- **[CEH Practical Exam Tips](https://www.youtube.com/watch?v=xpHkjEqGqgU)**
+- **[CEH Practical Exam Overview](https://www.youtube.com/playlist?list=PLMGAbJYY9Fm7ThxGx5u93SDmKGe5wJwH0)**
 
 ### 📝 **Soalan Latihan & Simulasi Peperiksaan**  
 - **[Boson CEH Practice Exams](https://www.boson.com/practice-exam/ceh)**  
